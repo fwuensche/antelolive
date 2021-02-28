@@ -1,5 +1,4 @@
 import React from "react"
-import logo from "./logo.svg"
 import "./App.css"
 
 const getPosts = () =>
@@ -17,7 +16,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src="https://avatars.githubusercontent.com/u/1740848?s=460&u=92755565c64e1972eebc04a505ccc98372d461b8&v=4"
+          className="App-logo"
+          alt="logo"
+        />
         <p>Antelo Live</p>
         {posts.map((post) => (
           <a
