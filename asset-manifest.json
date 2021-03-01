@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/antelolive/static/css/main.16e0923e.chunk.css",
-    "main.js": "/antelolive/static/js/main.714e72b8.chunk.js",
-    "main.js.map": "/antelolive/static/js/main.714e72b8.chunk.js.map",
+    "main.js": "/antelolive/static/js/main.8e64983b.chunk.js",
+    "main.js.map": "/antelolive/static/js/main.8e64983b.chunk.js.map",
     "runtime-main.js": "/antelolive/static/js/runtime-main.7fafde19.js",
     "runtime-main.js.map": "/antelolive/static/js/runtime-main.7fafde19.js.map",
     "static/js/2.d242658a.chunk.js": "/antelolive/static/js/2.d242658a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7fafde19.js",
     "static/js/2.d242658a.chunk.js",
     "static/css/main.16e0923e.chunk.css",
-    "static/js/main.714e72b8.chunk.js"
+    "static/js/main.8e64983b.chunk.js"
   ]
 }
