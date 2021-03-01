@@ -1,8 +1,8 @@
 import React from "react"
-import "./App.css"
-import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Posts from "./components/Posts"
 import Post from "./components/Post"
+import "./App.css"
 
 const App = () => (
   <Router>
