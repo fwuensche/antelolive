@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Posts from "./components/Posts"
 import Post from "./components/Post"
 import "./App.css"
