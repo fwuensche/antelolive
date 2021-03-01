@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/antelolive/static/css/main.16e0923e.chunk.css",
-    "main.js": "/antelolive/static/js/main.8e64983b.chunk.js",
-    "main.js.map": "/antelolive/static/js/main.8e64983b.chunk.js.map",
+    "main.js": "/antelolive/static/js/main.674d710e.chunk.js",
+    "main.js.map": "/antelolive/static/js/main.674d710e.chunk.js.map",
     "runtime-main.js": "/antelolive/static/js/runtime-main.7fafde19.js",
     "runtime-main.js.map": "/antelolive/static/js/runtime-main.7fafde19.js.map",
-    "static/js/2.d242658a.chunk.js": "/antelolive/static/js/2.d242658a.chunk.js",
-    "static/js/2.d242658a.chunk.js.map": "/antelolive/static/js/2.d242658a.chunk.js.map",
+    "static/js/2.a7951c98.chunk.js": "/antelolive/static/js/2.a7951c98.chunk.js",
+    "static/js/2.a7951c98.chunk.js.map": "/antelolive/static/js/2.a7951c98.chunk.js.map",
     "static/js/3.a805c6e5.chunk.js": "/antelolive/static/js/3.a805c6e5.chunk.js",
     "static/js/3.a805c6e5.chunk.js.map": "/antelolive/static/js/3.a805c6e5.chunk.js.map",
     "index.html": "/antelolive/index.html",
     "static/css/main.16e0923e.chunk.css.map": "/antelolive/static/css/main.16e0923e.chunk.css.map",
-    "static/js/2.d242658a.chunk.js.LICENSE.txt": "/antelolive/static/js/2.d242658a.chunk.js.LICENSE.txt"
+    "static/js/2.a7951c98.chunk.js.LICENSE.txt": "/antelolive/static/js/2.a7951c98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7fafde19.js",
-    "static/js/2.d242658a.chunk.js",
+    "static/js/2.a7951c98.chunk.js",
     "static/css/main.16e0923e.chunk.css",
-    "static/js/main.8e64983b.chunk.js"
+    "static/js/main.674d710e.chunk.js"
   ]
 }
