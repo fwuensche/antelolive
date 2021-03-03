@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 const getPosts = () =>
-  fetch("https://dev.to/api/articles?username=fwuensche").then((res) =>
+  fetch("https://dev.to/api/articles?username=antelolive").then((res) =>
     res.json()
   )
 
