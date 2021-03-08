@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { useHistory } from "react-router-dom"
+import { Pane, Heading, Text } from "evergreen-ui"
 
 const getPosts = () =>
   fetch("https://dev.to/api/articles?username=antelolive").then((res) =>
@@ -8,6 +9,7 @@ const getPosts = () =>
 
 const Posts = () => {
   const [posts, setPosts] = React.useState([])
+  const history = useHistory()
 
   React.useEffect(() => {
     getPosts().then((data) => setPosts(data))
@@ -15,18 +17,19 @@ const Posts = () => {
 
   return (
     <>
-      <img
-        src="https://avatars.githubusercontent.com/u/1740848?s=460&u=92755565c64e1972eebc04a505ccc98372d461b8&v=4"
-        className="App-logo"
-        alt="logo"
-      />
-      <p>Antelo Live</p>
+      <Heading size={800}>Posts</Heading>
       {posts.map((post) => (
-        <div>
-          <Link className="App-link" to={`posts/${post.id}`}>
-            {post.title}
-          </Link>
-        </div>
+        <Pane
+          marginY={24}
+          onClick={() => history.push(`/posts/${post.id}`)}
+          cursor="pointer"
+        >
+          <Pane display="flex" marginBottom={6}>
+            <Heading flex={1}>{post.title}</Heading>
+            <Text>{post.positive_reactions_count} ♡</Text>
+          </Pane>
+          <Text>{post.description} likes</Text>
+        </Pane>
       ))}
     </>
   )

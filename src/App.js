@@ -2,22 +2,26 @@ import React from "react"
 import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Posts from "./components/Posts"
 import Post from "./components/Post"
-import "./App.css"
+import Home from "./components/Home"
+import Header from "./components/Header"
+import { Pane } from "evergreen-ui"
 
 const App = () => (
   <Router>
-    <div className="App">
-      <header className="App-header">
-        <Switch>
-          <Route exact path="/">
-            <Posts />
-          </Route>
-          <Route path="/posts/:id">
-            <Post />
-          </Route>
-        </Switch>
-      </header>
-    </div>
+    <Pane width={500} margin="auto">
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/posts">
+          <Posts />
+        </Route>
+        <Route path="/posts/:id">
+          <Post />
+        </Route>
+      </Switch>
+    </Pane>
   </Router>
 )
 
