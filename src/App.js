@@ -4,11 +4,11 @@ import Posts from "./components/Posts"
 import Post from "./components/Post"
 import Home from "./components/Home"
 import Header from "./components/Header"
-import { Pane } from "evergreen-ui"
+import { Pane, majorScale } from "evergreen-ui"
 
 const App = () => (
   <Router>
-    <Pane width={500} margin="auto">
+    <Pane maxWidth={500} margin="auto" padding={majorScale(2)}>
       <Header />
       <Switch>
         <Route exact path="/">

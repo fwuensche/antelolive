@@ -25,10 +25,12 @@ const Posts = () => {
           cursor="pointer"
         >
           <Pane display="flex" marginBottom={6}>
-            <Heading flex={1}>{post.title}</Heading>
-            <Text>{post.positive_reactions_count} ♡</Text>
+            <Heading size={600} flex={1}>
+              {post.title}
+            </Heading>
+            <Text size={500}>{post.positive_reactions_count} ♡</Text>
           </Pane>
-          <Text>{post.description} likes</Text>
+          <Text size={500}>{post.description}</Text>
         </Pane>
       ))}
     </>

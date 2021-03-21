@@ -1,6 +1,6 @@
 import React from "react"
 import { useHistory, useParams } from "react-router-dom"
-import { BackButton, Heading } from "evergreen-ui"
+import { BackButton, Heading, majorScale } from "evergreen-ui"
 import "./Post.css"
 
 const getPost = (id) =>
@@ -18,7 +18,11 @@ const Post = () => {
   return (
     <>
       <BackButton onClick={() => history.push("/posts")} />
-      <Heading marginTop={24} size={800}>
+      <Heading
+        marginTop={majorScale(3)}
+        size={800}
+        marginBottom={majorScale(3)}
+      >
         {post.title}
       </Heading>
       <div className="container">
